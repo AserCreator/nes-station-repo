@@ -4,6 +4,8 @@
   id: ClothingShoesBase
   components:
   - type: Clothing
+    equipDelay: 3 #NES14-Changes
+    unequipDelay: 2
     slots:
     - FEET
   - type: Sprite

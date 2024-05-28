@@ -7,7 +7,7 @@
   - type: Transform
     anchored: true
   - type: Sprite
-    sprite: Objects/Devices/nuke.rsi
+    sprite: NES/Objects/Misc/nuke.rsi #NES14-Changes
     noRot: true
     layers:
     - state: nuclearbomb_base
@@ -123,7 +123,7 @@
   components:
   - type: NukeLabel
   - type: Sprite
-    sprite: Objects/Devices/nuke.rsi
+    sprite: NES/Objects/Misc/nuke.rsi #NES14-Changes
     layers:
     - state: nuclearbomb_base
     - state: nukefestive

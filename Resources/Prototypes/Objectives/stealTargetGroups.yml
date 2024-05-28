@@ -278,7 +278,7 @@
   id: NuclearBomb
   name: nuclear fission explosive
   sprite:
-    sprite: Objects/Devices/nuke.rsi
+    sprite: NES/Objects/Misc/nuke.rsi #NES14-Changes
     state: nuclearbomb_base
 
 - type: stealTargetGroup

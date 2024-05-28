@@ -1,0 +1,11 @@
+- type: metabolizerType
+  id: Avian
+  name: Avian
+
+- type: metabolizerType
+  id: Avali
+  name: Avali
+
+- type: metabolizerType
+  id: Tarrantok
+  name: Tarrantok

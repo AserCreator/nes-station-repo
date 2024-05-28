@@ -1,0 +1,25 @@
+- type: entity
+  parent: ReinforcedWindow
+  id: Nes14Window
+  name: окно
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: NES/Structures/Windows/alm_window.rsi
+  - type: Icon
+    sprite: NES/Structures/Windows/alm_window.rsi
+  - type: IconSmooth
+    base: alm_window
+
+- type: entity
+  parent: ReinforcedWindow
+  id: Nes14WindowWhite
+  name: окно
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: NES/Structures/Windows/alm_window_white.rsi
+  - type: Icon
+    sprite: NES/Structures/Windows/alm_window_white.rsi
+  - type: IconSmooth
+    base: alm_window

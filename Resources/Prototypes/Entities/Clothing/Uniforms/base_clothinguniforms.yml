@@ -6,6 +6,8 @@
   - type: Sprite
     state: icon
   - type: Clothing
+    equipDelay: 2 #NES14-Changes
+    unequipDelay: 1
     slots: [innerclothing]
     equipSound:
       path: /Audio/Items/jumpsuit_equip.ogg
@@ -34,6 +36,8 @@
   id: UnsensoredClothingUniformSkirtBase
   components:
   - type: Clothing
+    equipDelay: 2 #NES14-Changes
+    unequipDelay: 1
     slots: [innerclothing]
     femaleMask: UniformTop
 

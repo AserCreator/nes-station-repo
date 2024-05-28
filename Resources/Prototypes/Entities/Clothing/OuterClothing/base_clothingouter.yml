@@ -4,6 +4,8 @@
   id: ClothingOuterBase
   components:
   - type: Clothing
+    equipDelay: 1 #NES14-Changes
+    unequipDelay: 0.5
     slots:
     - outerClothing
   - type: Sprite
@@ -17,6 +19,8 @@
   - type: Item
     size: Huge
   - type: Clothing
+    equipDelay: 3 #NES14-Changes
+    unequipDelay: 2
     slots:
     - outerClothing
   - type: ClothingSpeedModifier
@@ -105,6 +109,9 @@
   id: ClothingOuterHardsuitBase
   name: base hardsuit
   components:
+  - type: Clothing
+    equipDelay: 5 #NES14-Changes
+    unequipDelay: 4
   - type: PressureProtection
     highPressureMultiplier: 0.3
     lowPressureMultiplier: 1000
@@ -145,6 +152,9 @@
   id: ClothingOuterEVASuitBase
   name: base EVA Suit
   components:
+  - type: Clothing
+    equipDelay: 5 #NES14-Changes
+    unequipDelay: 4
   - type: PressureProtection
     highPressureMultiplier: 0.6
     lowPressureMultiplier: 1000
@@ -165,6 +175,9 @@
   name: hoodie with hood
   abstract: True
   components:
+  - type: Clothing
+    equipDelay: 4 #NES14-Changes
+    unequipDelay: 3
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterDefault
     slot: head
@@ -179,5 +192,8 @@
   parent: ClothingOuterBase
   id: ClothingOuterBaseMedium
   components:
+  - type: Clothing
+    equipDelay: 2 #NES-Changes
+    unequipDelay: 1
   - type: Item
     size: Huge

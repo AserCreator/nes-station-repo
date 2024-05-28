@@ -12,6 +12,8 @@
     sprite: Clothing/OuterClothing/Armor/security.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Armor/security.rsi
+    equipDelay: 3 #NES14-Changes
+    unequipDelay: 2
   - type: Armor #Based on /tg/ but slightly compensated to fit the fact that armor stacks in SS14.
     modifiers:
       coefficients:

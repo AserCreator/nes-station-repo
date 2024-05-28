@@ -19,7 +19,7 @@
     - type: AmbientSound
       enabled: false
       range: 4
-      volume: -4
+      volume: 4
       sound:
         path: /Audio/Effects/shuttle_thruster.ogg
     - type: Transform
@@ -27,8 +27,10 @@
     - type: Physics
       bodyType: Static
     - type: Rotatable
-      rotateWhileAnchored: true
+      # rotateWhileAnchored: true
     - type: Thruster
+      baseThrust: 20
+      thrust: 20
       damage:
         types:
           Heat: 40

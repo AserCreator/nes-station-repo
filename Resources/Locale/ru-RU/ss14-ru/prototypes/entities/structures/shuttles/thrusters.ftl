@@ -1,6 +1,6 @@
-ent-BaseThruster = ракетный двигатель
+ent-BaseThruster = ионный двигатель
     .desc = Ускоритель, позволяющий шаттлу передвигаться.
-ent-Thruster = ракетный двигатель
+ent-Thruster = ионный двигатель
     .desc = { ent-BaseThruster.desc }
 ent-ThrusterUnanchored = { ent-Thruster }
     .suffix = Незакреплённый
