@@ -1,7 +1,7 @@
 # Снаряжение для утилей
 - type: entity
   parent: ClothingOuterWinterCoat
-  id:Nes14ClothingOuterWinteSalvager
+  id: Nes14ClothingOuterWinteSalvager
   name: куртка утилизатора
   description: Плотная утилизаторская куртка для работы с морозной флорой и фауной.
   components:
@@ -20,7 +20,7 @@
 
 - type: entity
   parent: ClothingMaskGas
-  id:Nes14ClothingMaskGasSalvager
+  id: Nes14ClothingMaskGasSalvager
   name: защитная маска утилизатора
   description: Защитная утилизаторская маска, которую можно подключить к кислородному баллону, защищает ваше отверстие для пирога от холода.
   components:
@@ -36,7 +36,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id:Nes14ClothingHeadHatSalvagerRadio
+  id: Nes14ClothingHeadHatSalvagerRadio
   name: ушанка утилизатора
   description: По виду, обычная ушанка с козырьком для защиты от холода, но если посмотреть внимательнее, то можно заметить что в нее встроена рация.
   components:
@@ -57,7 +57,7 @@
 
 - type: entity
   parent: ClothingOuterArmorRiot
-  id:Nes14ClothingOuterArmorSalvagerRiot
+  id: Nes14ClothingOuterArmorSalvagerRiot
   name: легкая противоударная броня
   description: Легкая противоударная броня для защиты различных конечностей от агрессивной флоры и фауны, по типу ксеноморфов и клоунов.
   components:
@@ -80,7 +80,7 @@
     damageCoefficient: 0.85
 
 - type: entity
-  id:Nes14ClothingShoesBootsSalvagerFilled
+  id: Nes14ClothingShoesBootsSalvagerFilled
   name: ботинки утилизаторов
   description: Специализированные ботинки со стальными носками для работ по утилизации в опасных условиях
   parent: ClothingShoesBootsSalvage

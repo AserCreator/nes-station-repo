@@ -1,9 +1,8 @@
 - type: soundCollection
   id: Paracusia
   files:
-  #- /Audio/Effects/adminhelp.ogg
-  #- /Audio/Machines/Nuke/nuke_alarm.ogg
-  #- /Audio/Misc/emergency_meeting.ogg
+  - /Audio/Effects/adminhelp.ogg
+  - /Audio/Machines/Nuke/nuke_alarm.ogg
   - /Audio/Effects/countdown.ogg
   - /Audio/Effects/explosion1.ogg
   - /Audio/Effects/explosion2.ogg
@@ -33,7 +32,7 @@
   - /Audio/Effects/radpulse5.ogg
   - /Audio/Effects/radpulse9.ogg
   - /Audio/Effects/Chemistry/bubbles.ogg
-  - path: /Audio/NES/Doors/Close.ogg
+  - /Audio/NES/Doors/Close.ogg
   - /Audio/Machines/airlock_deny.ogg
   - /Audio/NES/Doors/Open.ogg #NES14-Changes
   - /Audio/Machines/airlock_ext_open.ogg

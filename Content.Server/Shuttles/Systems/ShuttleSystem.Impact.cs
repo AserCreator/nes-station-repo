@@ -13,7 +13,7 @@ public sealed partial class ShuttleSystem
     /// <summary>
     /// Minimum velocity difference between 2 bodies for a shuttle "impact" to occur.
     /// </summary>
-    private const int MinimumImpactVelocity = 10;
+    private const int MinimumImpactVelocity = 3;
 
     private readonly SoundCollectionSpecifier _shuttleImpactSound = new("ShuttleImpactSound");
 

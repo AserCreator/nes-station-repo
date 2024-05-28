@@ -1,6 +1,6 @@
 - type: entity
   parent: ClothingOuterEVASuitBase
-  id:Nes14ClothingOuterHardsuitAvaliBasic
+  id: Nes14ClothingOuterHardsuitAvaliBasic
   name: легкий скафандр
   description: Базовый скафандр белого цвета, оснащенный легкими пластиковыми пластинами. Предназначен для вылазок на небесные тела. Присмотревшись - вы видите что форма скафандра сделана для Авали.
   components:
@@ -27,7 +27,7 @@
 
 - type: entity
   parent: ClothingHeadEVAHelmetBase
-  id:Nes14ClothingHeadHelmetHardsuitAvaliBasic
+  id: Nes14ClothingHeadHelmetHardsuitAvaliBasic
   name: легкий шлем скафандра
   description: Базовый шлем скафандра, который защитит вашу голову от перепадов давления. Присмотревшись - вы видите что форма шлема сделана для Авали.
   components:
@@ -46,7 +46,7 @@
 
 - type: entity
   parent: ClothingOuterEVASuitBase
-  id:Nes14ClothingOuterHardsuitBasic
+  id: Nes14ClothingOuterHardsuitBasic
   name: легкий скафандр
   description: Базовый скафандр белого цвета, оснащенный легкими пластиковыми пластинами. Предназначен для вылазок на небесные тела. Присмотревшись - вы видите что форма скафандра сделана для Человека.
   components:
@@ -73,7 +73,7 @@
 
 - type: entity
   parent: ClothingHeadEVAHelmetBase
-  id:Nes14ClothingHeadHelmetHardsuitBasic
+  id: Nes14ClothingHeadHelmetHardsuitBasic
   name: легкий шлем скафандра
   description: Базовый шлем скафандра, который защитит вашу голову от перепадов давления. Присмотревшись - вы видите что форма шлема сделана для Человека.
   components:

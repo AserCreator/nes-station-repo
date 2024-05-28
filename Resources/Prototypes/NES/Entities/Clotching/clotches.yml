@@ -1,7 +1,7 @@
 #Кастомная одежда
 - type: entity
   parent: ClothingNeckBase
-  id:Nes14ClothingNeckCloakgrey
+  id: Nes14ClothingNeckCloakgrey
   name: посеребрянный плащ
   description: Серый плащ, с серебристыми линиями. Пахнет моим дедушкой.
   components:
@@ -10,7 +10,7 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id:Nes14ClothingUniformJumpsuitturtleneck
+  id: Nes14ClothingUniformJumpsuitturtleneck
   name: cерая водолазка
   description: Достаточно облегающий свитер с высоким воротом, закрывающим шею своего владельца.
   components:
@@ -19,7 +19,7 @@
 
 - type: entity
   parent: ClothingNeckBase
-  id:Nes14ClothingNeckMantleGreyShoulder
+  id: Nes14ClothingNeckMantleGreyShoulder
   name: cерая наплечная мантия
   description: Прямоугольный плащ серого цвета из плотного материала.
   components:
@@ -28,7 +28,7 @@
 
 - type: entity
   parent: ClothingUniformSkirtBase
-  id:Nes14ClothingUniformJumpgreyparade
+  id: Nes14ClothingUniformJumpgreyparade
   name: серая торжественная рубашка
   description: Серая рубашка для особых мероприятий.
   components:
@@ -39,7 +39,7 @@
 
 - type: entity
   parent: ClothingUniformSkirtBase
-  id:Nes14ClothingUniformJumpblackparade
+  id: Nes14ClothingUniformJumpblackparade
   name: чёрная торжественная рубашка
   description: Чёрная рубашка с золотыми вставками, для особых мероприятий.
   components:
@@ -50,7 +50,7 @@
 
 - type: entity
   parent: ClothingUniformSkirtBase
-  id:Nes14ClothingUniformJumpmaroongold
+  id: Nes14ClothingUniformJumpmaroongold
   name: бордовый комбинизон
   description: Просто бордовый комбинизон, с золотыми пуговицами и чёрным низом.
   components:
@@ -61,7 +61,7 @@
 
 - type: entity
   parent: ClothingUniformSkirtBase
-  id:Nes14ClothingUniformJumpmaroongoldparade
+  id: Nes14ClothingUniformJumpmaroongoldparade
   name: торжественный бордовый комбинезон
   description: Торжественный бордовый комбинезон, с золотыми вставками для особых мероприятий.
   components:
@@ -72,7 +72,7 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: NesAvaliClothingUniformBase
+  id:  NesAvaliClothingUniformBase
   name: белая майка
   description: Белая майка, одень маленького размера.
   components:
@@ -81,7 +81,7 @@
 
 - type: entity
   parent: ClothingNeckBase
-  id: NesAvaliClothingNeckBase
+  id:  NesAvaliClothingNeckBase
   name: серый плащик
   description: Плащ с несколькими засеребрянными линиями.
   components:
@@ -90,7 +90,7 @@
 
 - type: entity
   parent: ClothingUniformSkirtBase
-  id:Nes14ClothingUniformMaid
+  id: Nes14ClothingUniformMaid
   name: платье горничной
   description: Платье для особых мероприятий.
   components:
@@ -101,7 +101,7 @@
 
 - type: entity
   parent: ClothingUniformSkirtBase
-  id:Nes14ClothingUniformMaidAlt
+  id: Nes14ClothingUniformMaidAlt
   name: платье горничной
   description: Платье для особых мероприятий.
   components:
@@ -112,7 +112,7 @@
 
 - type: entity
   parent: ClothingUniformSkirtBase
-  id:Nes14ClothingUniformAdmin
+  id: Nes14ClothingUniformAdmin
   name: администраторская форма
   description: Черно-белая, или бело-черная? Не знаю, но все еще униформа администратора станции.
   components:
@@ -123,7 +123,7 @@
 
 - type: entity
   parent: ClothingUniformSkirtBase
-  id:Nes14ClothingUniformAdminAlt
+  id: Nes14ClothingUniformAdminAlt
   name: администраторская рубашка
   description: Черно-белая, или бело-черная? Все же черная, и все еще униформа администратора станции.
   components:
@@ -134,7 +134,7 @@
 
 - type: entity
   parent: ClothingUniformSkirtBase
-  id:Nes14ClothingUniformSkirtAdmin
+  id: Nes14ClothingUniformSkirtAdmin
   name: администраторская юбка
   description: Черно-белая, или бело-черная? Не знаю, но все еще юбка администратора станции.
   components:
@@ -145,7 +145,7 @@
 
 - type: entity
   parent: ClothingNeckBase
-  id:Nes14ClothingNeckCloakAdmin
+  id: Nes14ClothingNeckCloakAdmin
   name: администраторский плащ
   description: Достаточно ухоженый плащ, с серебристыми линиями. По какой-то причине несколько тяжелый.
   components:
@@ -154,7 +154,7 @@
 
 - type: entity
   parent: ClothingNeckBase
-  id:Nes14ClothingNeckCloakAdminAlt
+  id: Nes14ClothingNeckCloakAdminAlt
   name: администраторский торжественный плащ
   description: Достаточно ухоженый плащ для деловых встреч, с серебристыми линиями. Легче чем его обычная версия.
   components:

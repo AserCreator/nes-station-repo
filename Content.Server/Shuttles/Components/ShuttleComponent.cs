@@ -14,7 +14,7 @@ namespace Content.Server.Shuttles.Components
         /// <summary>
         /// Thrust gets multiplied by this value if it's for braking.
         /// </summary>
-        public const float BrakeCoefficient = 1.5f;
+        public const float BrakeCoefficient = 0.1f;
 
         /// <summary>
         /// Maximum velocity assuming unupgraded, tier 1 thrusters

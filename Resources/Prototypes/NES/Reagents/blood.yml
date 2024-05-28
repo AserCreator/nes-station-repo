@@ -1,9 +1,9 @@
 - type: reagent
   parent: Blood
   id: TarrantokBlood
-  name: reagent-name-Tarrantok-blood
+  name: reagent-name-tarrantok-blood
   group: Biological
-  desc: reagent-desc-Tarrantok-blood
+  desc: reagent-desc-tarrantok-blood
   flavor: metallic
   color: "#ff1d5b"
   recognizable: true

@@ -29,7 +29,7 @@
     state: pda
 
 - type: entity
-  parent: NesBasePDA
+  parent: Nes14BasePDA
   id: Nes14AdminPDA
   name: КПК Администратора
   components:
@@ -42,7 +42,7 @@
     state: pda-admin
 
 - type: entity
-  parent: NesBasePDA
+  parent: Nes14BasePDA
   id: Nes14BlackPDA
   name: КПК
   components:

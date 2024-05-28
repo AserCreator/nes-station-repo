@@ -1,6 +1,6 @@
 - type: entity
   parent: ClothingUniformBase
-  id:Nes14ClothingUniformJumpsuitAcorp
+  id: Nes14ClothingUniformJumpsuitAcorp
   name: стильный комбинезон А-КОРП
   description: Стильный комбинезон со стильным значком корпоративного ублюдка на груди.
   components:
@@ -11,7 +11,7 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id:Nes14ClothingUniformJumpsuitCapAcorp
+  id: Nes14ClothingUniformJumpsuitCapAcorp
   name: посеребряный комбинезон А-КОРП
   description: Стильный комбинезон с серебряными погонами корпорации.
   components:
@@ -22,7 +22,7 @@
 
 - type: entity
   parent: ClothingOuterStorageBase
-  id:Nes14ClothingOuterCoatAcorpDirectorTrench
+  id: Nes14ClothingOuterCoatAcorpDirectorTrench
   name: защитный тренч А-КОРП
   description: Специализированый для командования и высокопоставленых лиц корпорации.
   components:
@@ -43,7 +43,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id:Nes14ClothingHeadHatAcorpBeret
+  id: Nes14ClothingHeadHatAcorpBeret
   name: берет А-КОРП
   description: Берет... Арбуз.
   components:
@@ -59,7 +59,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id:Nes14ClothingHeadHatAcorpKepkaGandonka
+  id: Nes14ClothingHeadHatAcorpKepkaGandonka
   name: кепка А-КОРП
   description: Кепка... Дыня.
   components:
@@ -75,7 +75,7 @@
 
 - type: entity
   parent: ClothingShoesBaseButcherable
-  id:Nes14ClothingShoesBootsAcorp
+  id: Nes14ClothingShoesBootsAcorp
   name: ботинки А-КОРП
   description: Да кого ебет описание?!
   components:
@@ -86,7 +86,7 @@
 
 - type: entity
   parent: ClothingShoesMilitaryBase
-  id:Nes14ClothingShoesBootsAcorpArmed
+  id: Nes14ClothingShoesBootsAcorpArmed
   name: посеребряные ботинки А-КОРП
   description: Обычные ботинки с засеребряным покрытием. Имеют секцию для ножа.
   components:

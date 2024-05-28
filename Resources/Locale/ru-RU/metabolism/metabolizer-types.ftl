@@ -9,3 +9,8 @@ metabolizer-type-plant = Растение
 metabolizer-type-dwarf = Дварф
 metabolizer-type-moth = Ниан
 metabolizer-type-arachnid = Арахнид
+
+## NES
+metabolizer-type-Avali = Авали
+metabolizer-type-Avian = Авиан
+metabolizer-type-Tarrantok = Тарран

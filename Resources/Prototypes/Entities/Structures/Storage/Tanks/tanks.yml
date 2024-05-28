@@ -121,7 +121,7 @@
   description: Seems like a good place to stand and waste time. It has a stock of paper cups on the side.
   components:
   - type: Sprite
-    sprite: NES/Structures/Storage/tanks.rsi #NES14-Changes
+    sprite: Structures/Storage/tanks.rsi
     layers:
       - state: watercooler-2
       - state: watercooler-2-1
@@ -205,7 +205,7 @@
     - type: StaticPrice
       price: 500
     - type: Sprite
-      sprite: NES/Structures/Storage/tanks.rsi #NES14-Changes
+      sprite: Structures/Storage/tanks.rsi
       layers:
         - state: generictank-1
         - state: generictank-1-1 # Corvax-Resprite

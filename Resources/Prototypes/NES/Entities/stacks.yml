@@ -2,7 +2,7 @@
   id: NesStackGreyTape
   name: скотч
   icon: {sprite: "/Textures/NES/Objects/Misc/tape.rsi", state: tapegrey }
-  spawn: NesGreyTape
+  spawn: Nes14GreyTape
   maxCount: 20
   itemSize: 1
 

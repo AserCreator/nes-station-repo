@@ -38,5 +38,5 @@
       - state: ai
   - type: ConditionalSpawner
     prototypes:
-      - MobCatGarfield
+      - Nes14MobCatGarfield
 

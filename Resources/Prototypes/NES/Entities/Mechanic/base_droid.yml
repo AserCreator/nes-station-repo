@@ -18,6 +18,11 @@
     prototype: Human
   - type: CombatMode
     canDisarm: true
+  - type: BorgTransponder
+    sprite:
+      sprite: Mobs/Silicon/chassis.rsi
+      state: robot
+    name: cyborg
   - type: Puller
     needsHands: true
   - type: MeleeWeapon
@@ -55,7 +60,6 @@
     node: cyborg
   - type: Tag
     tags:
-    - ShoesRequiredStepTriggerImmune
     - DoorBumpOpener
     - CanPilot
     - FootstepSound
@@ -118,15 +122,9 @@
     speechVerb: Robotic
   - type: Construction
     node: cyborg
-  - type: Tag
-    tags:
-    - ShoesRequiredStepTriggerImmune
-    - DoorBumpOpener
-    - CanPilot
-    - FootstepSound
 
 - type: entity
-  id: NesPlayerBorgCH1
+  id: Nes14PlayerBorgCH1
   parent: Nes14DroidCH1
   suffix: Батарея
   components:
@@ -180,7 +178,7 @@
     baseSprintSpeed: 3
 
 - type: entity
-  id: NesPlayerBorgOH3
+  id: Nes14PlayerBorgOH3
   parent: Nes14DroidOH3
   suffix: Батарея
   components:
@@ -224,7 +222,7 @@
     baseSprintSpeed: 3.5
 
 - type: entity
-  id: NesPlayerBorgMG7
+  id: Nes14PlayerBorgMG7
   parent: Nes14DroidMG7
   suffix: Батарея
   components:
@@ -272,7 +270,7 @@
     baseSprintSpeed: 4.6
 
 - type: entity
-  id: NesPlayerBorgMC9
+  id: Nes14PlayerBorgMC9
   parent: Nes14DroidMC9
   suffix: Батарея
   components:
@@ -323,7 +321,7 @@
     node: cyborg
 
 - type: entity
-  id: NesPlayerBorgS9
+  id: Nes14PlayerBorgS9
   parent: Nes14DroidS9
   suffix: Батарея
   components:

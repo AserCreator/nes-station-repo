@@ -1,11 +1,11 @@
 - type: metabolizerType
   id: Avian
-  name: Avian
+  name: metabolizer-type-Avian
 
 - type: metabolizerType
   id: Avali
-  name: Avali
+  name: metabolizer-type-Avali
 
 - type: metabolizerType
   id: Tarrantok
-  name: Tarrantok
+  name: metabolizer-type-Tarrantok
