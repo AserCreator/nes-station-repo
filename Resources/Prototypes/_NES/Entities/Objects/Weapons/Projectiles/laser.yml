@@ -1,0 +1,14 @@
+- type: entity
+  name : disabler bolt
+  id: Nes14BulletLaser
+  parent: BulletDisabler
+  noSpawn: true
+  components:
+  - type: Projectile
+    impactEffect: BulletImpactEffectDisabler
+    damage:
+      types:
+        Heat: 18
+    soundHit:
+      collection: WeakHit
+    forceSound: true

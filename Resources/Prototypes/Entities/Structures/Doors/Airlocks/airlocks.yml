@@ -108,6 +108,11 @@
   id: AirlockMaint
   name: maintenance access
   components:
+  - type: PointLight
+    radius: 2
+    energy: 2
+    color: "#d38322"
+  - type: LitOnPowered
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/maint.rsi
 

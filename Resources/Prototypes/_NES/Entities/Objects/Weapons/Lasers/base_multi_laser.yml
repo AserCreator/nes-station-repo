@@ -1,0 +1,43 @@
+- type: entity
+  name: Энергетический карабин
+  parent: BaseWeaponBattery
+  id: Nes14WeaponLaserCarbine
+  description: Высокотехнологическое оружие нового поколения, позволяет изменять режимы стрельбы с травматического до летального.
+  components:
+  - type: Item
+    size: Large
+  - type: Tag
+    tags:
+      - Taser
+      - Sidearm
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Battery/disabler_smg.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-unshaded-0
+        map: ["enum.GunVisualLayers.MagUnshaded"]
+        shader: unshaded
+  - type: Gun
+    selectedMode: FullAuto
+    fireRate: 4
+    availableModes:
+      - SemiAuto
+      - FullAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
+  - type: ProjectileBatteryAmmoProvider
+    proto: Nes14BulletLaser
+    fireCost: 33
+  - type: BatteryWeaponFireModes
+    fireModes:
+      - proto: Nes14BulletLaser
+        fireCost: 33
+      - proto: BulletDisabler
+        fireCost: 33
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: StaticPrice
+    price: 260

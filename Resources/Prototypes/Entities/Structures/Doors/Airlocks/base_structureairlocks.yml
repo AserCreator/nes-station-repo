@@ -4,6 +4,11 @@
   name: airlock
   description: It opens, it closes, and maybe crushes you.
   components:
+  - type: PointLight
+    radius: 1.5
+    energy: 2
+    color: "#3c5eb5"
+  - type: LitOnPowered
   - type: MeleeSound
     soundGroups:
       Brute:
