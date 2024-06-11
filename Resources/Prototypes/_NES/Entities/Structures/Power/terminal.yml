@@ -30,6 +30,7 @@
     anchored: true
   - type: ApcPowerReceiver
     powerLoad: 1500
+  - type: RadarConsole
   - type: ExtensionCableReceiver
   - type: AmbientSound
     range: 5
