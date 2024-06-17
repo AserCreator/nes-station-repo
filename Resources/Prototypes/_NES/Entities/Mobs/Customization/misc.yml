@@ -4,7 +4,7 @@
   markingCategory: Snout
   speciesRestriction: [Avian]
   sprites:
-    - sprite: NES/Mobs/Species/avian.rsi
+    - sprite: NES/Mobs/Species/Avian/parts.rsi
       state: beak
 
 - type: marking

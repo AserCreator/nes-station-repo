@@ -9,7 +9,7 @@
   - type: Hunger
   - type: Thirst
   - type: Icon
-    sprite: NES/Mobs/Species/Avali.rsi
+    sprite: NES/Mobs/Species/Avali/parts.rsi
     state: full
   - type: Body
     prototype: Avali
@@ -17,6 +17,16 @@
   - type: Inventory
     templateId: avali
     speciesId: avali
+    # displacements:
+    #   jumpsuit:
+    #     layer:
+    #       sprite: NES/Mobs/Species/Avali/displacement.rsi
+    #       state: jumpsuit
+    #       copyToShaderParameters:
+    #         # Value required, provide a dummy. Gets overridden when applied.
+    #         layerKey: dummy
+    #         parameterTexture: displacementMap
+    #         parameterUV: displacementUV
   - type: MobState
   - type: MobThresholds
     thresholds:

@@ -15,7 +15,7 @@
             <PanelContainer StyleClasses="LowDivider" />
             <BoxContainer Orientation="Horizontal" Margin="5 6 5 0" VerticalAlignment="Bottom">
                 <Label Text="Текущий код станции        " />
-                <OptionButton Name="AlertLevelButton" Text="Placeholder Text" Access="Public" HorizontalExpand="True" />
+                <OptionButton Name="AlertLevelButton" Access="Public" HorizontalExpand="True" />
             </BoxContainer>
         </BoxContainer>
 
@@ -23,7 +23,7 @@
             <PanelContainer StyleClasses="LowDivider" />
             <BoxContainer Orientation="Horizontal" Margin="5 6 2 0" VerticalAlignment="Bottom">
                 <RichTextLabel Name="CountdownLabel" VerticalExpand="True" HorizontalExpand="True"/>
-                <Button Name="EmergencyShuttleButton" Text="Placeholder Text" Access="Public" />
+                <Button Name="EmergencyShuttleButton" Access="Public" />
             </BoxContainer>
         </BoxContainer>
 

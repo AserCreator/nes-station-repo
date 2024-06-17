@@ -72,7 +72,7 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id:  NesAvaliClothingUniformBase
+  id:  Nes14AvaliClothingUniformBase
   name: белая майка
   description: Белая майка, одень маленького размера.
   components:
@@ -81,7 +81,7 @@
 
 - type: entity
   parent: ClothingNeckBase
-  id:  NesAvaliClothingNeckBase
+  id:  Nes14AvaliClothingNeckBase
   name: серый плащик
   description: Плащ с несколькими засеребрянными линиями.
   components:

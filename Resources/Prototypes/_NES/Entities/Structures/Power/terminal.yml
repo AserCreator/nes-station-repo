@@ -31,7 +31,6 @@
   - type: LitOnPowered
   - type: ApcPowerReceiver
     powerLoad: 400
-  - type: RadarConsole
   - type: ExtensionCableReceiver
   - type: AmbientSound
     range: 5
@@ -52,6 +51,7 @@
       enum.CommunicationsConsoleUiKey.Key:
         type: CommunicationsConsoleBoundUserInterface
   - type: Computer
+    board: CommsComputerCircuitboard
   - type: PointLight
     radius: 3.5
     energy: 1.6

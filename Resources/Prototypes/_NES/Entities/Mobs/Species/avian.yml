@@ -75,97 +75,91 @@
   markingsMatchSkin: true
 
 - type: humanoidBaseSprite
-  id: MobAvianSnout
-  baseSprite:
-    sprite: NES/Mobs/Species/Avian.rsi
-    state: beak
-
-- type: humanoidBaseSprite
   id: MobAvianHead
   baseSprite:
-    sprite: NES/Mobs/Species/Avian.rsi
+    sprite: NES/Mobs/Species/Avian/parts.rsi
     state: head_m
 
 - type: humanoidBaseSprite
   id: MobAvianHeadMale
   baseSprite:
-    sprite: NES/Mobs/Species/Avian.rsi
+    sprite: NES/Mobs/Species/Avian/parts.rsi
     state: head_m
 
 - type: humanoidBaseSprite
   id: MobAvianHeadFemale
   baseSprite:
-    sprite: NES/Mobs/Species/Avian.rsi
+    sprite: NES/Mobs/Species/Avian/parts.rsi
     state: head_f
 
 - type: humanoidBaseSprite
   id: MobAvianTorso
   baseSprite:
-    sprite: NES/Mobs/Species/Avian.rsi
+    sprite: NES/Mobs/Species/Avian/parts.rsi
     state: torso_m
 
 - type: humanoidBaseSprite
   id: MobAvianTorsoMale
   baseSprite:
-    sprite: NES/Mobs/Species/Avian.rsi
+    sprite: NES/Mobs/Species/Avian/parts.rsi
     state: torso_m
 
 - type: humanoidBaseSprite
   id: MobAvianTorsoFemale
   baseSprite:
-    sprite: NES/Mobs/Species/Avian.rsi
+    sprite: NES/Mobs/Species/Avian/parts.rsi
     state: torso_f
 
 - type: humanoidBaseSprite
   id: MobAvianLLeg
   baseSprite:
-    sprite: NES/Mobs/Species/Avian.rsi
+    sprite: NES/Mobs/Species/Avian/parts.rsi
     state: l_leg
 
 - type: humanoidBaseSprite
   id: MobAvianLHand
   baseSprite:
-    sprite: NES/Mobs/Species/Avian.rsi
+    sprite: NES/Mobs/Species/Avian/parts.rsi
     state: l_hand
 
 - type: humanoidBaseSprite
   id: MobAvianEyes
   baseSprite:
-    sprite: NES/Mobs/Species/Avian.rsi
-    state: f_eyes
+    sprite: NES/Mobs/Species/Avian/parts.rsi
+    state: eyes
 
 - type: humanoidBaseSprite
   id: MobAvianLArm
   baseSprite:
-    sprite: NES/Mobs/Species/Avian.rsi
+    sprite: NES/Mobs/Species/Avian/parts.rsi
     state: l_arm
 
 - type: humanoidBaseSprite
   id: MobAvianLFoot
   baseSprite:
-    sprite: NES/Mobs/Species/Avian.rsi
+    sprite: NES/Mobs/Species/Avian/parts.rsi
     state: l_foot
 
 - type: humanoidBaseSprite
   id: MobAvianRLeg
   baseSprite:
-    sprite: NES/Mobs/Species/Avian.rsi
+    sprite: NES/Mobs/Species/Avian/parts.rsi
     state: r_leg
 
 - type: humanoidBaseSprite
   id: MobAvianRHand
   baseSprite:
-    sprite: NES/Mobs/Species/Avian.rsi
+    sprite: NES/Mobs/Species/Avian/parts.rsi
     state: r_hand
 
 - type: humanoidBaseSprite
   id: MobAvianRArm
   baseSprite:
-    sprite: NES/Mobs/Species/Avian.rsi
+    sprite: NES/Mobs/Species/Avian/parts.rsi
     state: r_arm
 
 - type: humanoidBaseSprite
   id: MobAvianRFoot
   baseSprite:
-    sprite: NES/Mobs/Species/Avian.rsi
+    sprite: NES/Mobs/Species/Avian/parts.rsi
     state: r_foot

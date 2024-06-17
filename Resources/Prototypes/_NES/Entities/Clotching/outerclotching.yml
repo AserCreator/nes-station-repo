@@ -16,7 +16,7 @@
 
 - type: entity
   parent: ClothingOuterStorageBase
-  id:  NesAvaliClothingOuterBase
+  id:  Nes14AvaliClothingOuterBase
   name: маленькая китель-рубашка
   description: Форменная однобортная куртка со стоячим воротником серого цвета, рукава были обрезаны.
   components:
@@ -33,8 +33,8 @@
       sprite: NES/Clotches/Outerclotches/redcoat.rsi
 
 - type: entity
-  parent: NesAvaliClothingOuterBase
-  id: NesAvaliClothingOuterBlack
+  parent: Nes14AvaliClothingOuterBase
+  id: Nes14AvaliClothingOuterBlack
   name: темное платьице
   description: Темное платье с красными краями, рукава были либо отрезаны, либо сожраны.
   components:
