@@ -4,7 +4,7 @@
   markingCategory: Tail
   speciesRestriction: [Tarrantok]
   sprites:
-    - sprite: NES/Mobs/Customization/tails64x32.rsi
+    - sprite: NES/Mobs/Customization/tails64.rsi
       state: Tarrantok
 
 - type: marking
@@ -13,7 +13,7 @@
   markingCategory: Tail
   speciesRestriction: [Tarrantok]
   sprites:
-    - sprite: NES/Mobs/Customization/tails64x32.rsi
+    - sprite: NES/Mobs/Customization/tails64.rsi
       state: Tarrantok_big
 
 - type: marking
@@ -22,7 +22,7 @@
   markingCategory: Tail
   speciesRestriction: [Tarrantok]
   sprites:
-    - sprite: NES/Mobs/Customization/tails64x32.rsi
+    - sprite: NES/Mobs/Customization/tails64.rsi
       state: Tarrantok_big_fluff
 
 - type: marking
@@ -31,7 +31,7 @@
   markingCategory: Tail
   speciesRestriction: [Tarrantok]
   sprites:
-    - sprite: NES/Mobs/Customization/tails32x32.rsi
+    - sprite: NES/Mobs/Customization/tails32.rsi
       state: Tarrantok_shorter
 
 - type: marking
@@ -40,7 +40,7 @@
   markingCategory: Tail
   speciesRestriction: [Tarrantok]
   sprites:
-    - sprite: NES/Mobs/Customization/tails32x32.rsi
+    - sprite: NES/Mobs/Customization/tails32.rsi
       state: Tarrantok_medium
 
 - type: marking
@@ -49,7 +49,7 @@
   markingCategory: Tail
   speciesRestriction: [Avian]
   sprites:
-    - sprite: NES/Mobs/Customization/tails32x32.rsi
+    - sprite: NES/Mobs/Customization/tails32.rsi
       state: f_avian
 
 - type: marking
@@ -58,7 +58,7 @@
   markingCategory: Tail
   speciesRestriction: [Avian]
   sprites:
-    - sprite: NES/Mobs/Customization/tails32x32.rsi
+    - sprite: NES/Mobs/Customization/tails32.rsi
       state: m_avian
 
 - type: marking
@@ -67,5 +67,5 @@
   markingCategory: Tail
   speciesRestriction: [Avali]
   sprites:
-    - sprite: NES/Mobs/Customization/tails64x32.rsi
+    - sprite: NES/Mobs/Customization/tails64.rsi
       state: avali

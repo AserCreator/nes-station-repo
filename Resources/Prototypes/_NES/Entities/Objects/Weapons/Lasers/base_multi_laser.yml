@@ -25,7 +25,7 @@
       - SemiAuto
       - FullAuto
     soundGunshot:
-      path: /Audio/NEs/Guns/Lasers/laser2.ogg
+      path: /Audio/NES/Guns/Lasers/laser2.ogg
   - type: ProjectileBatteryAmmoProvider
     proto: Nes14BulletLaser
     fireCost: 50
