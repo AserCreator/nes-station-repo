@@ -6,9 +6,9 @@
   components:
   - type: Sprite
     netsync: false
-    sprite: NES/Mobs/Species/Avian.rsi
+    sprite: NES/Mobs/Species/Avian/parts.rsi
   - type: Icon
-    sprite: NES/Mobs/Species/Avian.rsi
+    sprite: NES/Mobs/Species/Avian/parts.rsi
   - type: Damageable
     damageContainer: Biological
   - type: BodyPart

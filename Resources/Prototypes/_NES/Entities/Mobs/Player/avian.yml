@@ -9,7 +9,7 @@
   - type: Hunger
   - type: Thirst
   - type: Icon
-    sprite: NES/Mobs/Species/avian.rsi
+    sprite: NES/Mobs/Species/Avian/parts.rsi
     state: full
   - type: Body
     prototype: Avian

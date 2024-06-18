@@ -6,9 +6,9 @@
   components:
   - type: Sprite
     netsync: false
-    sprite: NES/Mobs/Species/Tarrantok.rsi
+    sprite: NES/Mobs/Species/Tarrantok/parts.rsi
   - type: Icon
-    sprite: NES/Mobs/Species/Tarrantok.rsi
+    sprite: NES/Mobs/Species/Tarrantok/parts.rsi
   - type: Damageable
     damageContainer: Biological
   - type: BodyPart

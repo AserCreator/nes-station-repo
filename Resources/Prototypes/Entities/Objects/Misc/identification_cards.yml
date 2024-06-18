@@ -117,6 +117,7 @@
     - DoorBumpOpener
     - WhitelistChameleon
     - HighRiskItem
+    - CaptainIDCard # NES14-Changes
   - type: StealTarget
     stealGroup: CaptainIDCard
 

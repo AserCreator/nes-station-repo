@@ -9,7 +9,7 @@
   - type: Hunger
   - type: Thirst
   - type: Icon
-    sprite: NES/Mobs/Species/Tarrantok.rsi
+    sprite: NES/Mobs/Species/Tarrantok/parts.rsi
     state: full
   - type: Inventory
     templateId: tarrantok

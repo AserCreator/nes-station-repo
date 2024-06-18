@@ -6,9 +6,9 @@
   components:
   - type: Sprite
     netsync: false
-    sprite: NES/Mobs/Species/Avali.rsi
+    sprite: NES/Mobs/Species/Avali/parts.rsi
   - type: Icon
-    sprite: NES/Mobs/Species/Avali.rsi
+    sprite: NES/Mobs/Species/Avali/parts.rsi
   - type: Damageable
     damageContainer: Biological
   - type: BodyPart

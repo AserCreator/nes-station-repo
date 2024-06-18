@@ -28,8 +28,9 @@
       map: ["enum.AnomalyGeneratorVisualLayers.Base"]
   - type: Transform
     anchored: true
+  - type: LitOnPowered
   - type: ApcPowerReceiver
-    powerLoad: 1500
+    powerLoad: 400
   - type: ExtensionCableReceiver
   - type: AmbientSound
     range: 5
@@ -42,6 +43,7 @@
     title: comms-console-announcement-title-station
   - type: DeviceNetwork
     transmitFrequencyId: ShuttleTimer
+  - type: ActivatableUIRequiresPower
   - type: ActivatableUI
     key: enum.CommunicationsConsoleUiKey.Key
   - type: UserInterface

@@ -24,3 +24,6 @@
 
 - type: Tag
   id: WeldWearable
+
+- type: Tag
+  id: CaptainIDCard

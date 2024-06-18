@@ -4,8 +4,8 @@
   markingCategory: Tail
   speciesRestriction: [Tarrantok]
   sprites:
-    - sprite: NES/Mobs/Customization/tails64x32.rsi
-      state: Tarrantok
+  - sprite: NES/Mobs/Customization/tails64.rsi
+    state: tarrantok
 
 - type: marking
   id: TailTarrantokBig
@@ -13,8 +13,8 @@
   markingCategory: Tail
   speciesRestriction: [Tarrantok]
   sprites:
-    - sprite: NES/Mobs/Customization/tails64x32.rsi
-      state: Tarrantok_big
+  - sprite: NES/Mobs/Customization/tails64.rsi
+    state: tarrantok_big
 
 - type: marking
   id: TailTarrantokBigFluff
@@ -22,8 +22,8 @@
   markingCategory: Tail
   speciesRestriction: [Tarrantok]
   sprites:
-    - sprite: NES/Mobs/Customization/tails64x32.rsi
-      state: Tarrantok_big_fluff
+  - sprite: NES/Mobs/Customization/tails64.rsi
+    state: tarrantok_big_fluff
 
 - type: marking
   id: TailTarrantokShorter
@@ -31,8 +31,8 @@
   markingCategory: Tail
   speciesRestriction: [Tarrantok]
   sprites:
-    - sprite: NES/Mobs/Customization/tails32x32.rsi
-      state: Tarrantok_shorter
+  - sprite: NES/Mobs/Customization/tails32.rsi
+    state: tarrantok_shorter
 
 - type: marking
   id: TailTarrantokMedium
@@ -40,8 +40,8 @@
   markingCategory: Tail
   speciesRestriction: [Tarrantok]
   sprites:
-    - sprite: NES/Mobs/Customization/tails32x32.rsi
-      state: Tarrantok_medium
+  - sprite: NES/Mobs/Customization/tails32.rsi
+    state: tarrantok_medium
 
 - type: marking
   id: TailAvianFemale
@@ -49,8 +49,8 @@
   markingCategory: Tail
   speciesRestriction: [Avian]
   sprites:
-    - sprite: NES/Mobs/Customization/tails32x32.rsi
-      state: f_avian
+  - sprite: NES/Mobs/Customization/tails32.rsi
+    state: f_avian
 
 - type: marking
   id: TailAvianMale
@@ -58,8 +58,8 @@
   markingCategory: Tail
   speciesRestriction: [Avian]
   sprites:
-    - sprite: NES/Mobs/Customization/tails32x32.rsi
-      state: m_avian
+  - sprite: NES/Mobs/Customization/tails32.rsi
+    state: m_avian
 
 - type: marking
   id: TailAvali
@@ -67,5 +67,5 @@
   markingCategory: Tail
   speciesRestriction: [Avali]
   sprites:
-    - sprite: NES/Mobs/Customization/tails32x32.rsi
-      state: avali
+  - sprite: NES/Mobs/Customization/tails64.rsi
+    state: avali

@@ -5,6 +5,7 @@
   playTimeTracker: JobPsychologist
   startingGear: PsychologistGear
   icon: "JobIconPsychologist"
+  setPreference: false
   supervisors: job-supervisors-cmo
   access:
   - Medical

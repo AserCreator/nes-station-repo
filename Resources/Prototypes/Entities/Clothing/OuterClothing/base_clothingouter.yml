@@ -193,7 +193,7 @@
   id: ClothingOuterBaseMedium
   components:
   - type: Clothing
-    equipDelay: 2 #NES-Changes
+    equipDelay: 2 #NES14-Changes
     unequipDelay: 1
   - type: Item
     size: Huge
