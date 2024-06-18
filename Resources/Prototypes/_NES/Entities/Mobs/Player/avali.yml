@@ -99,8 +99,8 @@
     factions:
     - NanoTrasen
   - type: MovementSpeedModifier
-    baseWalkSpeed : 5
-    baseSprintSpeed : 3
+    baseWalkSpeed : 6
+    baseSprintSpeed : 4
     weightlessAcceleration: 1.8
     weightlessFriction: 1
     weightlessModifier: 1

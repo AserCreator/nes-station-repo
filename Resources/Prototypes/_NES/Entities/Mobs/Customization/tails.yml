@@ -67,5 +67,5 @@
   markingCategory: Tail
   speciesRestriction: [Avali]
   sprites:
-    - sprite: NES/Mobs/Customization/tails32x32.rsi
+    - sprite: NES/Mobs/Customization/tails64x32.rsi
       state: avali
