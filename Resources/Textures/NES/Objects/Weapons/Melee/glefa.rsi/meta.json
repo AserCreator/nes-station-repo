@@ -11,6 +11,9 @@
       "name": "e_cutlass"
     },
     {
+      "name": "icon"
+    },
+    {
       "name": "inhand-left",
       "directions": 4
     },
