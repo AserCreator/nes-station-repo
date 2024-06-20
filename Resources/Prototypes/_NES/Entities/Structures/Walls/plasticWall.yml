@@ -1,5 +1,5 @@
 - type: entity
-  parent: BaseWall
+  parent: WallReinforced
   id: Nes14WallPlastic
   name: пластиковая стена
   components:
@@ -10,32 +10,10 @@
     state: full
   - type: Construction
     graph: Girder
-    node: NesPlasticShuttleWall
+    node: shuttleWall
   - type: IconSmooth
     key: walls
     base: plastitanium
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 400
-      behaviors:
-      - !type:DoActsBehavior
-        acts: ["Destruction"]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalSlam
-    - trigger:
-        !type:DamageTrigger
-        damage: 200
-      behaviors:
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalSlam
-      - !type:ChangeConstructionNodeBehavior
-        node: girder
-      - !type:DoActsBehavior
-        acts: ["Destruction"]
   - type: Appearance
 
 - type: entity
