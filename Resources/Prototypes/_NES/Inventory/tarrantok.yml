@@ -10,6 +10,7 @@
       displayName: Shoes
     - name: tailbag
       slotTexture: tailbag
+      fullTextureName: template_small
       slotFlags: BELT
       stripTime: 6
       uiWindowPos: 2,0
