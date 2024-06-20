@@ -8,16 +8,20 @@
   },
   "states": [
     {
-      "name": "tarrantok"
+      "name": "tarrantok",
+      "directions": 4
     },
     {
-      "name": "tarrantok_big"
+      "name": "tarrantok_big",
+      "directions": 4
     },
     {
-      "name": "tarrantok_big_fluff"
+      "name": "tarrantok_big_fluff",
+      "directions": 4
     },
     {
-      "name": "avali"
+      "name": "avali",
+      "directions": 4
     }
   ]
 }
