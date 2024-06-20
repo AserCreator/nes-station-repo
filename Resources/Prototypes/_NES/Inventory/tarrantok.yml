@@ -64,6 +64,7 @@
       displayName: Ears
     - name: avaliears
       slotTexture: avaliears
+      fullTextureName: template_small
       slotFlags: EARS
       stripTime: 3
       uiWindowPos: 0,2
