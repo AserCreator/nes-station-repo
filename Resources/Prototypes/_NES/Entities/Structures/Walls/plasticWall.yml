@@ -55,3 +55,23 @@
     key: walls
     base: plastitanium
   - type: Appearance
+
+- type: entity
+  parent: Girder
+  id: Nes14WallPlasticFrame
+  name: пластиковый каркас
+  components:
+  - type: SpriteFade
+  - type: Climbable
+  - type: Sprite
+    sprite: NES/Structures/Walls/frame_2.rsi
+  - type: Icon
+    sprite: NES/Structures/Walls/frame_2.rsi
+    state: full
+  - type: Construction
+    graph: Girder
+    node: shuttleWall
+  - type: IconSmooth
+    key: walls
+    base: plastitanium
+  - type: Appearance
