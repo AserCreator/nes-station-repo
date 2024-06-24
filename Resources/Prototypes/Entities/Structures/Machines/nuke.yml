@@ -24,11 +24,15 @@
     holidays:
       festive:
       - FestiveSeason
+      pride:
+      - PrideMonth
   - type: GenericVisualizer
     visuals:
       enum.HolidayVisuals.Holiday:
         christmas:
           festive: { visible: true }
+        pride:
+          pride: { visible: true }
       enum.NukeVisuals.Deployed:
         enum.NukeVisualLayers.Base:
           False: { state: nuclearbomb_base }
@@ -134,11 +138,15 @@
     holidays:
       festive:
       - FestiveSeason
+      pride:
+      - PrideMonth
   - type: GenericVisualizer
     visuals:
       enum.HolidayVisuals.Holiday:
         christmas:
           festive: { visible: true }
+        pride:
+          pride: { visible: true }
   - type: Physics
     bodyType: Dynamic
   - type: Fixtures

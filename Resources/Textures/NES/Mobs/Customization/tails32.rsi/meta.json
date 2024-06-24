@@ -8,19 +8,24 @@
   },
   "states": [
     {
-      "name": "tarrantok_medium"
+      "name": "tarrantok_medium",
+      "directions": 4
     },
     {
-      "name": "tarrantok_shorter"
+      "name": "tarrantok_shorter",
+      "directions": 4
     },
     {
-      "name": "avali"
+      "name": "avali",
+      "directions": 4
     },
     {
-      "name": "f_avian"
+      "name": "f_avian",
+      "directions": 4
     },
     {
-      "name": "m_avian"
+      "name": "m_avian",
+      "directions": 4
     }
   ]
 }
