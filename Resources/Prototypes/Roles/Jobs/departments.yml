@@ -37,6 +37,7 @@
   description: department-Command-description
   color: "#334E6D"
   roles:
+  - Administrator #NES14-Changes
   - Captain
   - IAA # Corvax-IAA
   - CentralCommandOfficial

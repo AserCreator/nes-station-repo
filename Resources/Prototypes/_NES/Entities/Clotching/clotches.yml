@@ -160,3 +160,14 @@
   components:
   - type: Sprite
     sprite: NES/Clotches/Cloak/admin_alt.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: Nes14ClothingUniformShirt
+  name: майка
+  description: Серая майка, на вид чистая, на запах... Нет
+  components:
+    - type: Sprite
+      sprite: NES/Clotches/Uniforms/shirt.rsi
+    - type: Clothing
+      sprite: NES/Clotches/Uniforms/shirt.rsi

@@ -85,7 +85,7 @@
     state: l_hand
   - type: BodyPart
     partType: Hand
-    symmetry: Left
+    symmetry: Right
 
 - type: entity
   id: RightHandTarrantok
@@ -98,7 +98,7 @@
     state: r_hand
   - type: BodyPart
     partType: Hand
-    symmetry: Right
+    symmetry: Left
 
 - type: entity
   id: LeftLegTarrantok

@@ -7,8 +7,8 @@
   category: construction-category-structures
   description: A large structural assembly made out of metal.
   icon:
-    sprite: /Textures/Structures/Walls/solid.rsi
-    state: wall_girder
+    sprite: NES/Structures/Walls/frame.rsi # NES14-Changes
+    state: full
   objectType: Structure
   placementMode: SnapgridCenter
   canRotate: false
