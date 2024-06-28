@@ -1,7 +1,7 @@
 - type: entity
   parent: [ BaseSMES, Nes14BaseMediStructure ]
   id: Nes14BigShotNatteryBasic
-  name: Корабельный аккамулятор
+  name: большой аккамулятор
   components:
   - type: Sprite
     sprite: NES/Structures/Power/BIGshotBattery.rsi
@@ -28,5 +28,5 @@
     sound:
       path: /Audio/Machines/scan_loop.ogg
   - type: Battery
-    maxCharge: 24000000
-    startingCharge: 24000000
+    maxCharge: 240000000
+    startingCharge: 240000000

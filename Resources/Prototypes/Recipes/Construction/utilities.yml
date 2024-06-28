@@ -104,7 +104,7 @@
   category: construction-category-utilities
   description: "A wallmount substation for compact spaces. Make sure to place cable underneath before building the wall."
   icon:
-    sprite: Structures/Power/substation.rsi
+    sprite: NES/Structures/Power/substation.rsi
     state: substation_wall
   objectType: Structure
   placementMode: SnapgridCenter
