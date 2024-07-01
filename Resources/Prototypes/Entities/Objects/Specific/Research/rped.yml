@@ -10,7 +10,7 @@
   - type: Item
     sprite: Objects/Specific/Research/rped.rsi
     size: Normal
-  - type: PartExchanger
+  # - type: PartExchanger
   - type: Storage
     grid:
     - 0,0,15,5

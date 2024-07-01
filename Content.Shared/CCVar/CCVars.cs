@@ -128,13 +128,13 @@ namespace Content.Shared.CCVar
         ///     Minimum time between meteor swarms in minutes.
         /// </summary>
         public static readonly CVarDef<float>
-            MeteorSwarmMinTime = CVarDef.Create("events.meteor_swarm_min_time", 7.5f, CVar.ARCHIVE | CVar.SERVERONLY);
+            MeteorSwarmMinTime = CVarDef.Create("events.meteor_swarm_min_time", 5.5f, CVar.ARCHIVE | CVar.SERVERONLY);
 
         /// <summary>
         ///     Maximum time between meteor swarms in minutes.
         /// </summary>
         public static readonly CVarDef<float>
-            MeteorSwarmMaxTime = CVarDef.Create("events.meteor_swarm_max_time", 12.5f, CVar.ARCHIVE | CVar.SERVERONLY);
+            MeteorSwarmMaxTime = CVarDef.Create("events.meteor_swarm_max_time", 7.5f, CVar.ARCHIVE | CVar.SERVERONLY);
 
         /*
          * Game
@@ -643,7 +643,7 @@ namespace Content.Shared.CCVar
             CVarDef.Create("physics.tile_friction", 40.0f, CVar.ARCHIVE | CVar.REPLICATED | CVar.SERVER);
 
         public static readonly CVarDef<float> StopSpeed =
-            CVarDef.Create("physics.stop_speed", 0.1f, CVar.ARCHIVE | CVar.REPLICATED | CVar.SERVER);
+            CVarDef.Create("physics.stop_speed", 0.2f, CVar.ARCHIVE | CVar.REPLICATED | CVar.SERVER);
 
         /// <summary>
         /// Whether mobs can push objects like lockers.
@@ -1233,7 +1233,7 @@ namespace Content.Shared.CCVar
         /// Whether or not OOC chat should be enabled during a round.
         /// </summary>
         public static readonly CVarDef<bool> OocEnableDuringRound =
-            CVarDef.Create("ooc.enable_during_round", false, CVar.NOTIFY | CVar.REPLICATED | CVar.SERVER);
+            CVarDef.Create("ooc.enable_during_round", true, CVar.NOTIFY | CVar.REPLICATED | CVar.SERVER);
 
         public static readonly CVarDef<bool> ShowOocPatronColor =
             CVarDef.Create("ooc.show_ooc_patron_color", true, CVar.ARCHIVE | CVar.REPLICATED | CVar.CLIENT);
@@ -1411,13 +1411,13 @@ namespace Content.Shared.CCVar
         /// Whether the arrivals terminal should be on a planet map.
         /// </summary>
         public static readonly CVarDef<bool> ArrivalsPlanet =
-            CVarDef.Create("shuttle.arrivals_planet", true, CVar.SERVERONLY);
+            CVarDef.Create("shuttle.arrivals_planet", false, CVar.SERVERONLY);
 
         /// <summary>
         /// Whether the arrivals shuttle is enabled.
         /// </summary>
         public static readonly CVarDef<bool> ArrivalsShuttles =
-            CVarDef.Create("shuttle.arrivals", true, CVar.SERVERONLY);
+            CVarDef.Create("shuttle.arrivals", false, CVar.SERVERONLY);
 
         /// <summary>
         /// The map to use for the arrivals station.
@@ -1490,7 +1490,7 @@ namespace Content.Shared.CCVar
         /// Any value equal to or less than zero will disable this check.
         /// </summary>
         public static readonly CVarDef<float> FTLMassLimit =
-            CVarDef.Create("shuttle.mass_limit", 300f, CVar.SERVERONLY);
+            CVarDef.Create("shuttle.mass_limit", 1000f, CVar.SERVERONLY);
 
         /// <summary>
         /// How long to knock down entities for if they aren't buckled when FTL starts and stops.
@@ -1725,7 +1725,7 @@ namespace Content.Shared.CCVar
             CVarDef.Create("chat.max_message_length", 1000, CVar.SERVER | CVar.REPLICATED);
 
         public static readonly CVarDef<int> ChatMaxAnnouncementLength =
-            CVarDef.Create("chat.max_announcement_length", 256, CVar.SERVER | CVar.REPLICATED);
+            CVarDef.Create("chat.max_announcement_length", 1000, CVar.SERVER | CVar.REPLICATED);
 
         public static readonly CVarDef<bool> ChatSanitizerEnabled =
             CVarDef.Create("chat.chat_sanitizer_enabled", true, CVar.SERVERONLY);
@@ -1920,7 +1920,7 @@ namespace Content.Shared.CCVar
         /// Whether or not the storage UI is static and bound to the hotbar, or unbound and allowed to be dragged anywhere.
         /// </summary>
         public static readonly CVarDef<bool> StaticStorageUI =
-            CVarDef.Create("control.static_storage_ui", true, CVar.CLIENTONLY | CVar.ARCHIVE);
+            CVarDef.Create("control.static_storage_ui", false, CVar.CLIENTONLY | CVar.ARCHIVE);
 
         /// <summary>
         /// Whether or not the storage window uses a transparent or opaque sprite.
