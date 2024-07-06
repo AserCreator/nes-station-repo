@@ -17,16 +17,16 @@
   - type: Inventory
     templateId: avali
     speciesId: avali
-    # displacements:
-    #   jumpsuit:
-    #     layer:
-    #       sprite: NES/Mobs/Species/Avali/displacement.rsi
-    #       state: jumpsuit
-    #       copyToShaderParameters:
-    #         # Value required, provide a dummy. Gets overridden when applied.
-    #         layerKey: dummy
-    #         parameterTexture: displacementMap
-    #         parameterUV: displacementUV
+    displacements:
+      shoes:
+        layer:
+          sprite: NES/Mobs/Species/Avali/displacement.rsi
+          state: shoes
+          copyToShaderParameters:
+            # Value required, provide a dummy. Gets overridden when applied.
+            layerKey: dummy
+            parameterTexture: displacementMap
+            parameterUV: displacementUV
   - type: MobState
   - type: MobThresholds
     thresholds:
@@ -99,8 +99,8 @@
     factions:
     - NanoTrasen
   - type: MovementSpeedModifier
-    baseWalkSpeed : 6
-    baseSprintSpeed : 4
+    baseWalkSpeed: 10
+    baseSprintSpeed: 7
     weightlessAcceleration: 1.8
     weightlessFriction: 1
     weightlessModifier: 1

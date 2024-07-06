@@ -58,13 +58,6 @@
           - MobMask
         layer:
           - MobLayer
-  - type: Respirator
-    damage:
-      types:
-        Asphyxiation: 0.0
-    damageRecovery:
-      types:
-        Asphyxiation: 0.0
   - type: MeleeWeapon
     soundHit:
       collection: Punch
