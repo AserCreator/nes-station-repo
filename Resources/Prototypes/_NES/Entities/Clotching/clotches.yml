@@ -160,3 +160,68 @@
   components:
   - type: Sprite
     sprite: NES/Clotches/Cloak/admin_alt.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: Nes14ClothingUniformShirt
+  name: майка
+  description: Серая майка, на вид чистая, на запах... Нет
+  components:
+    - type: Sprite
+      sprite: NES/Clotches/Uniforms/shirt.rsi
+    - type: Clothing
+      sprite: NES/Clotches/Uniforms/shirt.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id:  Nes14ClothingUniformSecCadetus
+  name: униформа кадета
+  description: Одеяние кадета СБ.
+  components:
+  - type: Sprite
+    sprite: NES/Clotches/Uniforms/sec_cadet.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id:  Nes14ClothingUniformSecOfficer
+  name: униформа офицера
+  description: Одеяние офицера СБ.
+  components:
+  - type: Sprite
+    sprite: NES/Clotches/Uniforms/sec_officer.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id:  Nes14ClothingUniformSecSenitor
+  name: униформа инспектора
+  description: Одеяние инспектора СБ.
+  components:
+  - type: Sprite
+    sprite: NES/Clotches/Uniforms/sec_senitor.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id:  Nes14ClothingUniformSecHOS
+  name: униформа судьи
+  description: Одеяние судьи станции.
+  components:
+  - type: Sprite
+    sprite: NES/Clotches/Uniforms/sec_hos.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id:  Nes14ClothingUniformCargoExplorator
+  name: униформа исследователя
+  description: Одеяние исследователя дальних миров. Достаточно теплая и тонкая чтобы влезть в скафандр.
+  components:
+  - type: Sprite
+    sprite: NES/Clotches/Uniforms/explorator.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id:  Nes14ClothingUniformEngiEngineer
+  name: униформа инженера
+  description: Одеяние инженера станции. Имеет хорошие карманы для инструментов.
+  components:
+  - type: Sprite
+    sprite: NES/Clotches/Uniforms/engineer.rsi

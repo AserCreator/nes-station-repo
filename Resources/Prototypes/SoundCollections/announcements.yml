@@ -1,6 +1,11 @@
 - type: soundCollection
   id: RoundEnd
   files:
-  - /Audio/Announcements/RoundEnd/apc_destroyed.ogg
-  - /Audio/Announcements/RoundEnd/disappointed.ogg
-  - /Audio/Announcements/RoundEnd/notevenpaidforthis.ogg
+  # - /Audio/Announcements/RoundEnd/apc_destroyed.ogg //NES14-Changes
+  # - /Audio/Announcements/RoundEnd/disappointed.ogg
+  # - /Audio/Announcements/RoundEnd/notevenpaidforthis.ogg
+  - /Audio/NES/StationEvents/RoundEnd/pyshnoy.ogg
+  # - /Audio/NES/StationEvents/RoundEnd/Goida.ogg
+  # - /Audio/NES/StationEvents/RoundEnd/Plan.ogg
+  # - /Audio/NES/StationEvents/RoundEnd/Ponabirayt.ogg
+  # - /Audio/NES/StationEvents/RoundEnd/Dnevnik.ogg

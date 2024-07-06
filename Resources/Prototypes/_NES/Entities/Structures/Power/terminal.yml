@@ -19,6 +19,7 @@
     - state: unshaded
       shader: unshaded
       map: ["enum.PowerDeviceVisualLayers.Powered"]
+      visible: false
     - state: inserting
       visible: false
       map: ["enum.MaterialStorageVisualLayers.Inserting"]
